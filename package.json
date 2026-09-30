@@ -1,0 +1,10 @@
+{
+  "name": "hoop-party",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scan, swipe and score — a multiplayer basketball party game",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js", "test": "node --test" },
+  "dependencies": { "qrcode": "^1.5.4", "ws": "^8.18.0" }
+}
